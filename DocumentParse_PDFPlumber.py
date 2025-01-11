@@ -69,3 +69,4 @@ class DocumentParse_PDFPlumber:
                 text = self.clean_newlines(text)                      # 清洗每页文本内容
                 content_extracted += text+'\n'
         return content_extracted
+        
